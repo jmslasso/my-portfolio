@@ -86,8 +86,10 @@ body {
 }
 
 body {
-  background-image: url('../../public/img/wallpaper.jpg');
+  background-image: url('../../public/img/nexerwallpaper.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 a {

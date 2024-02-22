@@ -1,8 +1,32 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 10vh;
+}
+
 .navHeader{
     display: flex;
     gap:20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9999px;
+    border: 1px solid white;
+    background-color: #2c2828;
+    width: fit-content;
+    opacity: .5;
 
     .link{
         font-size: 20px;
     }
+
+    .link:hover{
+        color:#C8C8C8;
+    }
+}
+
+.activeLink{
+    font-weight: bold;
+    font-size: 20px;
 }

@@ -20,7 +20,7 @@ const Typewriter = ({ text, delay }) => {
     return () => clearTimeout(timeout);
   }, [currentIndex, delay, text]);
 
-  return <div className={styles.description}>{currentText}</div>;
+  return <span>{currentText}</span>;
 };
 
 export default Typewriter;

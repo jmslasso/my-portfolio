@@ -1,0 +1,72 @@
+.containershell{
+    background-color:black;
+    height:200px;
+    width:300px;
+    border-radius:5px;
+    position:relative;
+    opacity: 0.8;
+  }
+  
+  .shellContent{
+    color:white;
+    position: absolute;
+    top:25px;
+    height: 175px;
+    width: 100%;
+    padding: 10px;
+  
+    .firstText{
+      display: flex;
+      flex-direction: row;
+      gap:5px;
+    }
+  }
+  
+  .topbarpc{
+    height:25px;
+    background-color:#343434;
+    border-radius: 5px 5px 0 0;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    position:absolute;
+    top:0;
+  }
+  
+  .exitbar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .buttonconsolepc{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 5px;
+    gap:5px;
+  }
+  
+  .exitButton{
+    background-color:rgb(156, 41, 41);
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .minimizeButton{
+    background-color:rgb(193, 193, 44);
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .greenButton{
+    background-color:rgb(41, 143, 41);
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+  }
