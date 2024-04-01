@@ -1,0 +1,73 @@
+.backgroundImage{
+    border-radius: 500px;
+    filter: grayscale(100%);
+}
+
+.profileContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    gap:50px;
+    animation: fadeIn 3s ease-in-out;
+    opacity: 0.9;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .headerText{
+        font-size: 40px;
+    }
+    .spanText{
+        font-size:20px;
+        padding-right: 80px;
+    }
+}
+
+.socialGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.socialItems{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+.socialIcons{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin:10px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: .9;
+    }
+}

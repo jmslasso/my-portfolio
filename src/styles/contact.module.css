@@ -1,0 +1,44 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    padding: 40px;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.networkContainer{
+    display:flex;
+    flex-direction: column;
+    padding:60px;
+    align-items: center;
+    gap: 25px;
+}
+
+.socialNetworks{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.socialNetworks span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialNetworks span svg{
+    width: 30px;
+    height: 30px;
+}
