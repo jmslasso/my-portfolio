@@ -8,10 +8,9 @@ import styles from '../styles/spotify.module.css';
 
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
-const client_id = "4b074d5dad0e429cb27ffa55b0affeb8";
-const client_secret = "7bb32fc26c6e48268d48a8d9f39e547b";
-const refresh_token = "AQA8WUGG8cKRT7ZNNZfJQb43F57CEZpLshKv55p3taK9owR5ZBp-RbwKGN01A0_C0w99AaF6MgX22uMH2OQcSbTzDJ0TMY-tCuKNi0dn34XCViPCVoXkTVCaaZ3zKBUJ-iI";
-
+const client_id = process.env.NEXT_PUBLIC_CLIENT_ID;
+const client_secret = process.env.NEXT_PUBLIC_CLIENT_SECRET;
+const refresh_token = process.env.NEXT_PUBLIC_REFRESH_TOKEN;
 //Function to generate an access token using the refresh token everytime the website is opened or refreshed
 export const getAccessToken = async (client_id, client_secret, refresh_token) => {
     //Creates a base64 code of client_id:client_secret as required by the API

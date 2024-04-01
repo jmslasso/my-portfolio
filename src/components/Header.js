@@ -10,8 +10,8 @@ const Header = () => {
     <header className={styles.headerContainer}>
       <nav className={styles.navHeader}>
         <Link href="/projects" className={pathname === "/projects" ? styles.activeLink: styles.link}>Projects</Link>
-        <Link href="/" className={styles.link}>Contact</Link>
-        <Link href="/" className={styles.link}>CV</Link>
+        <Link href="/contact" className={styles.link}>Contact</Link>
+        <Link href="/cv" className={styles.link}>CV</Link>
         <Link href="/about" className={pathname === "/about" ? styles.activeLink : styles.link}>About</Link>
       </nav>
     </header>

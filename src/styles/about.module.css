@@ -56,6 +56,13 @@
     width: -webkit-fill-available;
 }
 
+.socialIcons{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin:10px;
+}
+
 @keyframes fadeIn{
     from{
         opacity: 0;

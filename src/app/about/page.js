@@ -35,7 +35,7 @@ const AboutPage = () => {
           <div className={styles.socialMedia}>
             <h2>Social Media</h2>
             <div className={styles.socialIcons}>
-              <Link href="https://www.instagram.com/jmslasso" passHref={true}><ImInstagram size={30} /></Link>
+              <Link href="https://www.instagram.com/jmslasso" passHref={true}><ImInstagram size={28} /></Link>
               <Link href="https://github.com/jmslasso" passHref={true}><FaGithubSquare size={32} /></Link>
               <Link href="https://linkedin.com/in/jmslasso" passHref={true}><RiLinkedinBoxLine size={35} /></Link>
             </div>
